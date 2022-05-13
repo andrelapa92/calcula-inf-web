@@ -1,0 +1,59 @@
+.conteudo {
+    height: 450px;
+    background-color: rgb(238, 237, 235);
+}
+
+#div-campologo {
+    margin-top: -420px;
+}
+
+#logo-ilha {
+    position: absolute;
+    width: 10%;
+    padding-left: 15px;
+}
+
+#div-camporef {
+    position: fixed;
+    margin-top: -395px;
+}
+
+#div-anoref {
+    position: fixed;
+    margin-top: -320px;
+    width: 80px;
+}
+
+.texto {
+    font-size: larger;
+}
+
+#insert-data {
+    width: 230px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.botao {
+    background-color: rgb(43, 78, 158);
+    color: white;
+    border-color: white;
+}
+
+#campo-texto {
+    height: 20px;
+}
+
+#texto-dif {
+    font-size: larger;
+    margin-bottom: 30px;
+}
+
+
+/* Hide Calendar Icon In Chrome */
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
